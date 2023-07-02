@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
   font-family: 'Caprasimo';
   src: url('fonts/Caprasimo-Regular.ttf') format('truetype');
   font-weight: normal;
@@ -11,7 +11,7 @@
   top: 50px;
   left: 0px;
   right: 0px;
-  width: 130%;
+  width: 150%;
 }
 .product-card {
  width: auto;
@@ -20,8 +20,8 @@
  border-radius: 10px;
 }
 .product-card img {
-  width: 488.4px;
-  height: 732.0px;
+  width: 600.0px;
+  height: auto;
   border-radius: 25px;
 }
 .product-info {
@@ -125,15 +125,15 @@ h1{
 .card-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 350px;
+  grid-gap: 450px;
   position: relative;
   top: 350px;
   left: 100px;
 }
 .card img {
-  width: 230%; /* Ширина фото занимает 100% ширины карточки */
+  width: 290%; /* Ширина фото занимает 100% ширины карточки */
   border-radius: 38px;
-  margin-top: -300px;
+  margin-top: -500px;
 }
 .card h3 {
   margin-top: 10px; /* Отступ сверху для заголовка */
@@ -152,16 +152,18 @@ h1{
 }
 img[id="10"]{
   position: relative;
-  top: 2150px;
-  left: -650px;
-  width: 1024px;
+  top: 2350px;
+  left: -750px;
+  width: 1224px;
   height: auto;
   border-radius: 40px;
   padding-bottom: 200px;
 }
 h6{
-  font-size: 60px;
+  font-size: 90px;
   position: relative;
-  left: -640px;
-  top: 2200px;
+  left: -750px;
+  top: 2400px;
+  color: #a8a8a8;
 }
+
